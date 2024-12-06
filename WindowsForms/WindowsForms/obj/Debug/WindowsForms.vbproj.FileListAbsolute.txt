@@ -1,0 +1,14 @@
+D:\14581\WindowsForms\WindowsForms\bin\Debug\WindowsForms.exe.config
+D:\14581\WindowsForms\WindowsForms\bin\Debug\WindowsForms.exe
+D:\14581\WindowsForms\WindowsForms\bin\Debug\WindowsForms.pdb
+D:\14581\WindowsForms\WindowsForms\bin\Debug\WindowsForms.xml
+D:\14581\WindowsForms\WindowsForms\obj\Debug\WindowsForms.vbproj.AssemblyReference.cache
+D:\14581\WindowsForms\WindowsForms\obj\Debug\WindowsForms.Form1.resources
+D:\14581\WindowsForms\WindowsForms\obj\Debug\WindowsForms.Form2.resources
+D:\14581\WindowsForms\WindowsForms\obj\Debug\WindowsForms.Resources.resources
+D:\14581\WindowsForms\WindowsForms\obj\Debug\WindowsForms.vbproj.GenerateResource.cache
+D:\14581\WindowsForms\WindowsForms\obj\Debug\WindowsForms.vbproj.CoreCompileInputs.cache
+D:\14581\WindowsForms\WindowsForms\obj\Debug\WindowsForms.exe
+D:\14581\WindowsForms\WindowsForms\obj\Debug\WindowsForms.xml
+D:\14581\WindowsForms\WindowsForms\obj\Debug\WindowsForms.pdb
+D:\14581\WindowsForms\WindowsForms\obj\Debug\WindowsForms.Form3.resources
