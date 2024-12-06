@@ -12,3 +12,17 @@ C:\Users\14581\source\repos\AMinhaAplicacao\AMinhaAplicacao\obj\Debug\AMinhaApli
 C:\Users\14581\source\repos\AMinhaAplicacao\AMinhaAplicacao\obj\Debug\AMinhaAplicacao.pdb
 C:\Users\14581\source\repos\AMinhaAplicacao\AMinhaAplicacao\obj\Debug\AMinhaAplicacao.FormCalculadora.resources
 C:\Users\14581\source\repos\AMinhaAplicacao\AMinhaAplicacao\obj\Debug\AMinhaAplicacao.FormIMC.resources
+D:\Programacao\VisualBasic-main\AMinhaAplicacao\AMinhaAplicacao\bin\Debug\AMinhaAplicacao.exe.config
+D:\Programacao\VisualBasic-main\AMinhaAplicacao\AMinhaAplicacao\bin\Debug\AMinhaAplicacao.exe
+D:\Programacao\VisualBasic-main\AMinhaAplicacao\AMinhaAplicacao\bin\Debug\AMinhaAplicacao.pdb
+D:\Programacao\VisualBasic-main\AMinhaAplicacao\AMinhaAplicacao\bin\Debug\AMinhaAplicacao.xml
+D:\Programacao\VisualBasic-main\AMinhaAplicacao\AMinhaAplicacao\obj\Debug\AMinhaAplicacao.vbproj.AssemblyReference.cache
+D:\Programacao\VisualBasic-main\AMinhaAplicacao\AMinhaAplicacao\obj\Debug\AMinhaAplicacao.Form1.resources
+D:\Programacao\VisualBasic-main\AMinhaAplicacao\AMinhaAplicacao\obj\Debug\AMinhaAplicacao.FormCalculadora.resources
+D:\Programacao\VisualBasic-main\AMinhaAplicacao\AMinhaAplicacao\obj\Debug\AMinhaAplicacao.FormIMC.resources
+D:\Programacao\VisualBasic-main\AMinhaAplicacao\AMinhaAplicacao\obj\Debug\AMinhaAplicacao.Resources.resources
+D:\Programacao\VisualBasic-main\AMinhaAplicacao\AMinhaAplicacao\obj\Debug\AMinhaAplicacao.vbproj.GenerateResource.cache
+D:\Programacao\VisualBasic-main\AMinhaAplicacao\AMinhaAplicacao\obj\Debug\AMinhaAplicacao.vbproj.CoreCompileInputs.cache
+D:\Programacao\VisualBasic-main\AMinhaAplicacao\AMinhaAplicacao\obj\Debug\AMinhaAplicacao.exe
+D:\Programacao\VisualBasic-main\AMinhaAplicacao\AMinhaAplicacao\obj\Debug\AMinhaAplicacao.xml
+D:\Programacao\VisualBasic-main\AMinhaAplicacao\AMinhaAplicacao\obj\Debug\AMinhaAplicacao.pdb

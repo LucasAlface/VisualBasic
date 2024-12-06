@@ -43,6 +43,9 @@ Partial Class FormCalculadora
         Me.botEqual = New System.Windows.Forms.Button()
         Me.botSwitch = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.LabNum1 = New System.Windows.Forms.Label()
+        Me.LabOperador = New System.Windows.Forms.Label()
+        Me.BotRemoveAll = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'ButtonExit
@@ -240,20 +243,52 @@ Partial Class FormCalculadora
         '
         'TextBox1
         '
+        Me.TextBox1.Enabled = False
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(10, 113)
+        Me.TextBox1.Location = New System.Drawing.Point(10, 181)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(257, 138)
+        Me.TextBox1.Size = New System.Drawing.Size(257, 46)
         Me.TextBox1.TabIndex = 21
         Me.TextBox1.Text = "0"
         Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'LabNum1
+        '
+        Me.LabNum1.AutoSize = True
+        Me.LabNum1.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabNum1.Location = New System.Drawing.Point(193, 108)
+        Me.LabNum1.Name = "LabNum1"
+        Me.LabNum1.Size = New System.Drawing.Size(0, 33)
+        Me.LabNum1.TabIndex = 22
+        Me.LabNum1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'LabOperador
+        '
+        Me.LabOperador.AutoSize = True
+        Me.LabOperador.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabOperador.Location = New System.Drawing.Point(226, 153)
+        Me.LabOperador.Name = "LabOperador"
+        Me.LabOperador.Size = New System.Drawing.Size(0, 25)
+        Me.LabOperador.TabIndex = 23
+        '
+        'BotRemoveAll
+        '
+        Me.BotRemoveAll.Location = New System.Drawing.Point(13, 257)
+        Me.BotRemoveAll.Name = "BotRemoveAll"
+        Me.BotRemoveAll.Size = New System.Drawing.Size(59, 47)
+        Me.BotRemoveAll.TabIndex = 24
+        Me.BotRemoveAll.Text = "CE"
+        Me.BotRemoveAll.UseVisualStyleBackColor = True
         '
         'FormCalculadora
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(272, 533)
+        Me.Controls.Add(Me.BotRemoveAll)
+        Me.Controls.Add(Me.LabOperador)
+        Me.Controls.Add(Me.LabNum1)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.botComma)
         Me.Controls.Add(Me.Button0)
@@ -303,4 +338,7 @@ Partial Class FormCalculadora
     Friend WithEvents botEqual As Button
     Friend WithEvents botSwitch As Button
     Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents LabNum1 As Label
+    Friend WithEvents LabOperador As Label
+    Friend WithEvents BotRemoveAll As Button
 End Class
