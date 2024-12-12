@@ -255,13 +255,12 @@ Partial Class FormCalculadora
         '
         'LabNum1
         '
-        Me.LabNum1.AutoSize = True
         Me.LabNum1.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabNum1.Location = New System.Drawing.Point(193, 108)
+        Me.LabNum1.Location = New System.Drawing.Point(10, 108)
         Me.LabNum1.Name = "LabNum1"
-        Me.LabNum1.Size = New System.Drawing.Size(0, 33)
+        Me.LabNum1.Size = New System.Drawing.Size(257, 33)
         Me.LabNum1.TabIndex = 22
-        Me.LabNum1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.LabNum1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'LabOperador
         '
@@ -271,6 +270,7 @@ Partial Class FormCalculadora
         Me.LabOperador.Name = "LabOperador"
         Me.LabOperador.Size = New System.Drawing.Size(0, 25)
         Me.LabOperador.TabIndex = 23
+        Me.LabOperador.Visible = False
         '
         'BotRemoveAll
         '
