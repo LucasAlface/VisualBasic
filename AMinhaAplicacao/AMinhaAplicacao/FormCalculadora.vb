@@ -1,7 +1,8 @@
 ﻿Public Class FormCalculadora
     Dim operador As String = ""
-    Dim numero1 As Integer = 0
-    Dim numero2 As Integer = 0
+    Dim numero1 As Double = 0.0
+    Dim numero2 As Double = 0.0
+    ' O LabNum1 é o histórico
 
     ' Fechar o Programa
     Private Sub ButtonExit_Click(sender As Object, e As EventArgs) Handles ButtonExit.Click
@@ -10,7 +11,7 @@
         Me.Close()
     End Sub
 
-    ' Realizar uma conta
+    ' Realiza a conta e exibe o resultado quando se clica no botão de igual
     Public Sub Operacao(num1, num2)
         Dim Resultado As Double
 
@@ -34,12 +35,13 @@
             Resultado = num1 / num2
             TextBox1.Text = Resultado
         End If
-        numero1 = Resultado ' O número1 passa a ser o resultado, para se poder fazer contas sobre o mesmo 
-        LabNum1.Text = numero1 ' O resultado é exibido na caixa
-        TextBox1.Text = "0" ' Passa a 0 outra vez para poder ser inserido o num2
+        LabNum1.Text = LabNum1.Text & numero2 & "=" ' Exibição da operação realizada
+        TextBox1.Text = Resultado ' Exibição do resultado
+        numero1 = 0 ' Reseta para se poder realizar novas operações
 
     End Sub
 
+    ' Realiza a operação quando se clica em operadores, mas não exibe o resultado
     Public Sub OperacaoContinua(num1, num2)
         Dim Resultado As Double
 
@@ -80,8 +82,9 @@
                 LabNum1.Text = LabNum1.Text & numero2 & operador
                 OperacaoContinua(numero1, numero2)
             Else
-                LabNum1.Text = LabNum1.Text & operador
+                LabNum1.Text = numero1 & operador
             End If
+
         End If
         LabOperador.Text = operador ' Recolhe o operador
         operador = ""
@@ -161,7 +164,9 @@
     End Sub
 
     Private Sub botComma_Click(sender As Object, e As EventArgs) Handles botComma.Click
-        inserirNum(",")
+        If Not TextBox1.Text.Contains(",") Then ' Impede que se insira várias ","
+            inserirNum(",")
+        End If
     End Sub
 
     ' Apagar o numero inteiro que está na caixa
@@ -184,23 +189,15 @@
 
     ' Botão de igual
     Private Sub botEqual_Click(sender As Object, e As EventArgs) Handles botEqual.Click
-        numero2 = TextBox1.Text ' Envia num 2
-        Operacao(numero1, numero2) ' Realiza operacao
+        If Not LabNum1.Text.Contains("=") Then ' Impede que se insira vários "="
+            numero2 = TextBox1.Text ' Envia num 2
+            Operacao(numero1, numero2) ' Realiza operacao
+        End If
+
     End Sub
 
     ' Troca de sinais
     Private Sub botSwitch_Click(sender As Object, e As EventArgs) Handles botSwitch.Click
-        If operador = "+" Then
-            operador = "-"
-        ElseIf operador = "-" Then
-            operador = "+"
-        ElseIf operador = "*" Then
-            operador = "/"
-        ElseIf operador = "/" Then
-            operador = "*"
-        End If
-        LabOperador.Text = operador
+        TextBox1.Text = TextBox1.Text * -1
     End Sub
-
-
 End Class

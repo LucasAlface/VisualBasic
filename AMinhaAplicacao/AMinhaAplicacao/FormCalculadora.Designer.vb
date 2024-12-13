@@ -69,12 +69,13 @@ Partial Class FormCalculadora
         '
         'botMinus
         '
+        Me.botMinus.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.botMinus.Location = New System.Drawing.Point(208, 419)
         Me.botMinus.Name = "botMinus"
         Me.botMinus.Size = New System.Drawing.Size(59, 47)
         Me.botMinus.TabIndex = 2
         Me.botMinus.Text = "-"
-        Me.botMinus.UseVisualStyleBackColor = True
+        Me.botMinus.UseVisualStyleBackColor = False
         '
         'Button2
         '
@@ -116,12 +117,13 @@ Partial Class FormCalculadora
         '
         'botDivide
         '
+        Me.botDivide.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.botDivide.Location = New System.Drawing.Point(208, 257)
         Me.botDivide.Name = "botDivide"
         Me.botDivide.Size = New System.Drawing.Size(59, 47)
         Me.botDivide.TabIndex = 6
         Me.botDivide.Text = "/"
-        Me.botDivide.UseVisualStyleBackColor = True
+        Me.botDivide.UseVisualStyleBackColor = False
         '
         'Button6
         '
@@ -145,12 +147,13 @@ Partial Class FormCalculadora
         '
         'botAdd
         '
+        Me.botAdd.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.botAdd.Location = New System.Drawing.Point(208, 366)
         Me.botAdd.Name = "botAdd"
         Me.botAdd.Size = New System.Drawing.Size(59, 47)
         Me.botAdd.TabIndex = 10
         Me.botAdd.Text = "+"
-        Me.botAdd.UseVisualStyleBackColor = True
+        Me.botAdd.UseVisualStyleBackColor = False
         '
         'Button4
         '
@@ -184,12 +187,13 @@ Partial Class FormCalculadora
         '
         'botMultiply
         '
+        Me.botMultiply.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.botMultiply.Location = New System.Drawing.Point(208, 310)
         Me.botMultiply.Name = "botMultiply"
         Me.botMultiply.Size = New System.Drawing.Size(59, 47)
         Me.botMultiply.TabIndex = 14
         Me.botMultiply.Text = "X"
-        Me.botMultiply.UseVisualStyleBackColor = True
+        Me.botMultiply.UseVisualStyleBackColor = False
         '
         'Button7
         '
@@ -256,9 +260,9 @@ Partial Class FormCalculadora
         'LabNum1
         '
         Me.LabNum1.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabNum1.Location = New System.Drawing.Point(10, 108)
+        Me.LabNum1.Location = New System.Drawing.Point(10, 100)
         Me.LabNum1.Name = "LabNum1"
-        Me.LabNum1.Size = New System.Drawing.Size(257, 33)
+        Me.LabNum1.Size = New System.Drawing.Size(257, 78)
         Me.LabNum1.TabIndex = 22
         Me.LabNum1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
